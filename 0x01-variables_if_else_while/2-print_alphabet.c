@@ -1,21 +1,16 @@
 #include <stdio.h>
- /**
-  * main- Entry point
-  *
-  * Always: Return 0
-  */
-
+/**
+ * main - Entry point
+ * Return: Always 0
+ */
+/* betty style doc for function main goes there */
 int main(void)
-{ 
-	char letter = 'a';
-	
-	while(letter <= 'z')
-	{
-	  putchar(letter);
-	  letter++;
-	}
-	
-	putchar('\n');	
-
-	return (0);
+{
+char lc;
+for (lc = 'a'; lc <= 'z'; lc++)
+{
+putchar(lc);
+}
+putchar('\n');
+return (0);
 }
