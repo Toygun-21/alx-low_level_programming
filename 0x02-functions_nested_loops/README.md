@@ -1,0 +1,1 @@
+A conprehensive director containing all ou need to know about nested loops, functions, how to recur functions, functions and arras etc. Here we are mainl going to focus on making c programmes using the nested loop functions and how to call functions as well. All information provided in this director are contents of project works submitted for the ALX SE programme.
