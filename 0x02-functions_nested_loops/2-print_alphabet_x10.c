@@ -6,7 +6,7 @@ Always- Return 0
 */
 void print_alphabet_x10(void)
 {	char i = 0 , p;
-	 while(i <= 10)
+	 while(i < 10)
         {	for(p='a';p<='z';p++)
 		{ _putchar(p); }
 	 _putchar('\n');
