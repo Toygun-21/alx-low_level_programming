@@ -6,17 +6,19 @@
  */
 void more_numbers(void)
 {
-int n = 0 ,d;
-while (n < 14)
-{ 
-d = 0
-while (d <= 14)
+int i, j, tens, unit;
+for (i = 0; i < 10; i++)
 {
-_putchar(d); 
-d++;
+for (j = 0; j < 15; j++)
+{
+tens = j / 10;
+unit = j % 10;
+if (j >= 10)
+{
+_putchar(tens + '0');
+}
+_putchar(unit + '0');
 }
 _putchar('\n');
-n++;
 }
-return;
 }
