@@ -6,8 +6,8 @@
  */
 void more_numbers(void)
 {
-int n,d;
-for (n = 0;n < 14;n++)
+int n = 0 ,d;
+while (n < 14)
 { 
 d = 0
 while (d <= 14)
@@ -16,6 +16,7 @@ _putchar(d + '0');
 d++;
 }
 _putchar('\n');
+n++;
 }
 return;
 }
