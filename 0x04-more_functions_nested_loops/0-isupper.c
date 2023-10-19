@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
 * function- checks upper case characters and returns a value (1) if tru and (0) if false
 *@c is the arg of the function
