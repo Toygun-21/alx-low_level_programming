@@ -6,11 +6,9 @@
 */
 int _isupper(int c)
 {
-for(c = 'A';c <= 'z';c++)
-{
 if(c >= 'A' && c <= 'A')
 return (1);
 else
 return (0);
 }
-}
+
