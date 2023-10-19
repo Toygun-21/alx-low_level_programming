@@ -12,7 +12,7 @@ while (n < 14)
 d = 0
 while (d <= 14)
 {
-_putchar(d + '0'); 
+_putchar(d); 
 d++;
 }
 _putchar('\n');
