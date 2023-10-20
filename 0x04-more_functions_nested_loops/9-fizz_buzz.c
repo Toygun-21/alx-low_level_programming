@@ -33,6 +33,5 @@ putchar(32);
 i++;
 }
 printf("\n");
-putchar('\n');
 return (0);
 }
