@@ -1,1 +1,1 @@
-C programming starter pack repository
+C programming starter pack repository. This repo contains the starting poitn of my sofware engineering learning career. Topics treated in this repo varies from the basics to the medium and finally the hardest programming gigs of the c programming language.
